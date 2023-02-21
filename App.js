@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
+import ColorBox from './components/ColorBox';
 
 const App = () => {
   return (
@@ -9,18 +10,10 @@ const App = () => {
           Here are some boxes of different colours
         </Text>
       </View>
-      <View style={[styles.container, styles.cyan]}>
-        <Text style={styles.textArea}>Cyan #2aa198</Text>
-      </View>
-      <View style={[styles.container, styles.blue]}>
-        <Text style={styles.textArea}>Blue #268bd2</Text>
-      </View>
-      <View style={[styles.container, styles.magenta]}>
-        <Text style={styles.textArea}>Magenta #d33682</Text>
-      </View>
-      <View style={[styles.container, styles.orange]}>
-        <Text style={styles.textArea}>Orange #cb4b16</Text>
-      </View>
+      <ColorBox colorName="Cyan" hexCode="#2aa198" />
+      <ColorBox colorName="Blue" hexCode="#268bd2" />
+      <ColorBox colorName="Magenta" hexCode="#d33682" />
+      <ColorBox colorName="Orange" hexCode="#cb4b16" />
     </SafeAreaView>
   );
 };
@@ -34,24 +27,6 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 20,
     marginRight: 20,
-  },
-  cyan: {
-    backgroundColor: '#2aa198',
-  },
-  blue: {
-    backgroundColor: '#268bd2',
-  },
-  magenta: {
-    backgroundColor: '#d33682',
-  },
-  orange: {
-    backgroundColor: '#cb4b16',
-  },
-  textArea: {
-    textAlign: 'center',
-    color: 'white',
-    fontWeight: 'bold',
-    padding: 10,
   },
 });
 
