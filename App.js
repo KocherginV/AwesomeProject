@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './screens/Home';
 import ColorPalette from './screens/ColorPalette';
-import AddNewPaletteModal from './screens/ColorPaletteModal';
+import AddNewPaletteModal from './screens/AddNewPaletteModal';
 
 const RootStack = createStackNavigator();
 const MainStack = createStackNavigator();
