@@ -1,7 +1,7 @@
 # AwesomeProject
 Coursework done during [React Native course](https://frontendmasters.com/courses/react-native-v2/) from Frontend Masters. <br /> The app purpose is to show different
-color palettes fetched from the API. Tap on the palette will lead to the palette details view. Also user can create own color palette, select colors and it would be shown on top of the palettes list. The newly
-created palette wouldn't be shown in other session (i.e., no POST request with the new palette is done).
+color palettes. Tap on the palette will lead to the palette details view. Also user can create own color palette, select colors and it would be shown on top of the palettes list. The newly
+created palette wouldn't be shown in other session (i.e., no POST request to the API with the new palette is done).
 
 # To run project
 <h3>Prerequisites:</h3>
