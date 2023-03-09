@@ -45,7 +45,12 @@ const AddNewPaletteModal = ({ navigation }) => {
     <View style={styles.container}>
       <View style={styles.heading}>
         <Text>Name of your color palette</Text>
-        <TextInput style={styles.input} value={name} onChangeText={setName} />
+        <TextInput
+          style={styles.input}
+          value={name}
+          onChangeText={setName}
+          testID="input"
+        />
       </View>
       <FlatList
         style={styles.list}
@@ -61,6 +66,7 @@ const AddNewPaletteModal = ({ navigation }) => {
                 )
               }
               onValueChange={(newValue) => handleUpdate(item, newValue)}
+              testID={`switch-${item.colorName}`}
             />
           </View>
         )}

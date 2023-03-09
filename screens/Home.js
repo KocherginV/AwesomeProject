@@ -49,6 +49,7 @@ const Home = ({ navigation, route }) => {
       onRefresh={handleRefresh}
       ListHeaderComponent={
         <TouchableOpacity
+          testID="newPaletteBtn"
           style={styles.button}
           onPress={() => {
             navigation.navigate('AddNewPaletteModal');
