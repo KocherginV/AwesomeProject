@@ -1,4 +1,4 @@
-import { device, element, by } from 'detox';
+import { device, element, by, waitFor } from 'detox';
 
 describe('Palettes tests', () => {
   beforeAll(async () => {
@@ -23,5 +23,14 @@ describe('Palettes tests', () => {
     await element(by.id('input')).tap();
     await element(by.id('input')).typeText('my new palette');
     await element(by.id('switch-AliceBlue')).tap();
+    await element(by.id('switch-Azure')).tap();
+    await element(by.id('switch-Blue')).tap();
+    await waitFor(element(by.id('switch-Chocolate')))
+      .toBeVisible()
+      .whileElement(by.id('colorsList'))
+      .scroll(50, 'down');
+    await element(by.id('switch-Chocolate')).tap();
+    await element(by.id('submitBtn')).tap();
+    await expect(element(by.label('my new palette'))).toBeVisible();
   });
 });

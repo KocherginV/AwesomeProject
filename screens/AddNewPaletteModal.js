@@ -55,6 +55,7 @@ const AddNewPaletteModal = ({ navigation }) => {
       <FlatList
         style={styles.list}
         data={COLORS}
+        testID="colorsList"
         keyExtractor={(item) => item.colorName}
         renderItem={({ item }) => (
           <View style={styles.switch}>
@@ -72,7 +73,7 @@ const AddNewPaletteModal = ({ navigation }) => {
         )}
       />
       <TouchableOpacity style={styles.buttonWrapper} onPress={handleSubmit}>
-        <View style={styles.button}>
+        <View style={styles.button} testID="submitBtn">
           <Text style={styles.buttonText}>Submit!</Text>
         </View>
       </TouchableOpacity>
