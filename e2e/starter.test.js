@@ -33,4 +33,14 @@ describe('Palettes tests', () => {
     await element(by.id('submitBtn')).tap();
     await expect(element(by.label('my new palette'))).toBeVisible();
   });
+
+  it('should open palette details', async () => {
+    await element(by.id('paletteNameFrontend Masters')).tap();
+    await expect(element(by.label('Frontend Masters'))).toBeVisible();
+    await expect(element(by.id('colorNameRed'))).toBeVisible();
+    await expect(element(by.id('colorNameBlack'))).toBeVisible();
+    await expect(element(by.id('colorNameGrey'))).toBeVisible();
+    await expect(element(by.id('colorNameWhite'))).toBeVisible();
+    await expect(element(by.id('colorNameOrange'))).toBeVisible();
+  });
 });

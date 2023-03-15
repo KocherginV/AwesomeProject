@@ -13,7 +13,10 @@ const ColorBox = (props) => {
   };
   return (
     <View style={[styles.container, boxColor]}>
-      <Text style={[styles.textArea, textStyle]}>
+      <Text
+        style={[styles.textArea, textStyle]}
+        testID={`colorName${props.colorName}`}
+      >
         {props.colorName}: {props.hexCode}
       </Text>
     </View>
