@@ -30,7 +30,13 @@ created palette wouldn't be shown in other session (i.e., no POST request to the
   - Run: `npx react-native run-android`
 
 # To run tests
+<h3>Component tests:</h3>
 WIP
+
+<h3>End-to-end tests</h3>
+
+Run following comand in the project's folder:
+`npm run e2e`. <br/> Please note, at the moment E2E tests can be ran only on iOS device, Android support is TBD.
 
 # Troubleshooting
 If you have issues with setting up or running project, please refer to:
