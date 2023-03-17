@@ -35,6 +35,7 @@ WIP
 
 <h3>End-to-end tests</h3>
 
+[Detox](https://wix.github.io/Detox/) is used as E2E testing tool.<br />
 Run following comand in the project's folder:
 `npm run e2e`. <br/> Please note, at the moment E2E tests can be ran only on iOS device, Android support is TBD.
 
