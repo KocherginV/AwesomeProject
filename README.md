@@ -1,7 +1,26 @@
 # AwesomeProject
 Coursework done during [React Native course](https://frontendmasters.com/courses/react-native-v2/) from Frontend Masters. <br /> The app purpose is to show different
-color palettes. Tap on the palette will lead to the palette details view. Also user can create own color palette, select colors and it would be shown on top of the palettes list. The newly
-created palette wouldn't be shown in other session (i.e., no POST request to the API with the new palette is done).
+color palettes.
+
+Application consists of three screens. On the first user can see color palette listing:
+| iOS | Android |
+|:-------:|:-------:|
+| ![iOS](https://user-images.githubusercontent.com/23701921/229481402-d3bff731-18bb-4b79-a805-1b207018e7ec.png) | ![Android](https://user-images.githubusercontent.com/23701921/229481650-c5cdb8e6-89e8-4219-9ecb-799dd1ae476a.png) |
+
+On the second screen user can create custom palette:
+| iOS | Android |
+|:-------:|:-------:|
+| ![iOS](https://user-images.githubusercontent.com/23701921/229481442-e5ee50bf-0976-4819-8e21-982cbc1b96f4.png) | ![Android](https://user-images.githubusercontent.com/23701921/229481679-7c63b6bc-5240-4ccf-8c30-78c8aaeaddc2.png) |
+
+
+Palette will be displayed on top of the list after creation:
+
+| iOS | Android |
+|:-------:|:-------:|
+| ![iOS](https://user-images.githubusercontent.com/23701921/229481548-408c663e-685f-4360-a49f-29a614df73fa.png) | ![Android](https://user-images.githubusercontent.com/23701921/229481700-b5704eb2-86f9-48e3-b93b-a8ee84a7d4cd.png) |
+
+On the third screen user can see palette details (images TBD).
+
 
 # To run project
 <h3>Prerequisites:</h3>
