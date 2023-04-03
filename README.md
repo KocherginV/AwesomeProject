@@ -14,7 +14,7 @@ created palette wouldn't be shown in other session (i.e., no POST request to the
 
 **First way:**
 
- - In terminal navigate to AwedomeProject dir 
+ - In terminal navigate to AwesomeProject dir 
  - Run: `npx react-native run-ios` 
 
 **Second way:**
@@ -26,7 +26,7 @@ created palette wouldn't be shown in other session (i.e., no POST request to the
  <h4>Android:</h4>
  
   - Launch emulator from Android studio, 
-  - Navigate to AwedomeProject dir 
+  - Navigate to AwesomeProject dir 
   - Run: `npx react-native run-android`
 
 # To run tests
