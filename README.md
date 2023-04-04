@@ -19,8 +19,11 @@ Palette will be displayed on top of the list after creation:
 |:-------:|:-------:|
 | ![iOS](https://user-images.githubusercontent.com/23701921/229481548-408c663e-685f-4360-a49f-29a614df73fa.png) | ![Android](https://user-images.githubusercontent.com/23701921/229481700-b5704eb2-86f9-48e3-b93b-a8ee84a7d4cd.png) |
 
-On the third screen user can see palette details (images TBD).
+If user taps on palette on the home screen, palette details will be opened on the third screen.
 
+| iOS | Android |
+|:-------:|:-------:|
+| ![iOS](https://user-images.githubusercontent.com/23701921/229746983-38c9321a-0eab-42c5-a227-1efcc40fb1e6.png) | ![Android](https://user-images.githubusercontent.com/23701921/229747036-45010677-5649-4f13-ac94-99a101f64fb8.png) |
 
 # To run project
 <h3>Prerequisites:</h3>
